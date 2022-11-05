@@ -6,9 +6,9 @@ getgenv().ExploitSpecific = "📜"
 
 -- API CALLS
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mxnsters/rosemoc/main/library.lua?token=GHSAT0AAAAAAB2U44PDV47T2HTESUGE74PEY3FDYMA"))()
-getgenv().api = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mxnsters/rosemoc/main/api.lua?token=GHSAT0AAAAAAB2U44PDQ23B6IBKVQYJWOKWY3FDY3A"))()
-local bssapi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mxnsters/rosemoc/main/bssapi.lua?token=GHSAT0AAAAAAB2U44PDUETY2MBYFIBDB5ASY3FDZDA"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mxnsters/rosemoc/main/library.lua"))()
+getgenv().api = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mxnsters/rosemoc/main/api.lua"))()
+local bssapi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mxnsters/rosemoc/main/bssapi.lua"))()
 local httpreq = (syn and syn.request) or http_request or (http and http.request) or request
 
 if not isfolder("kocmoc") then makefolder("kocmoc") end
